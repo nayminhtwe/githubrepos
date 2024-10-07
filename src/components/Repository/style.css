@@ -1,0 +1,70 @@
+.repositories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .repository-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .repository-card:hover {
+    transform: scale(0.95);
+  }
+  
+  .repository-name {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .repository-stats {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .load-more-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .load-more-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
